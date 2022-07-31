@@ -1,0 +1,16 @@
+{
+    "name": "demo-node-deployment",
+    "version": "1.0.0",
+    "description": "Demo deployment on Kubernetes with NodeJS",
+    "main": "index.js",
+    "repository": "https://github.com/thanh1669/demo-node-deployment",
+    "author": "thanh1669",
+    "license": "MIT",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "express": "^4.18.1",
+        "mongoose": "^6.5.0"
+    }
+}
