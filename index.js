@@ -6,7 +6,6 @@ const enviroment = {
     port: process.env.PORT,
     version: process.env.VERSION,
     message: process.env.MESSAGE,
-    mongoUri: process.env.MONGODB_URI
 };
 
 if (!enviroment.port) {

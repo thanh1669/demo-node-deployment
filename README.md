@@ -13,7 +13,7 @@ Các biến môi trường:
 |--------------|------------|-----------------------|------------------------------------|
 | `PORT`       | `required` | 3000                  | Cổng app lắng nghe                 |
 | `MESSAGE`    | `required` | Hello world           | Thông điệp khi gọi API sẽ hiển thị |
-| `MONGODB_URI`| `optional` | mongodb://<sv>:<port> | Uri kết nối tới mongo service      |
+| `VERSION`    | `optional` | 1.0.0                 | Version của ứng dụng               |
 
 Docker image (có thể tự build hoặc sử dụng sẵn image sau):
 - `thanh1669/demo-node-deployment`
